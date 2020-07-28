@@ -502,7 +502,7 @@ public class Controller implements Initializable{
      *
      */
 
-    String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=.sWAG2014";
+    String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=";
     String name = "daten";
 
     private void afterMapIsInitialized() {

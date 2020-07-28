@@ -59,7 +59,7 @@ public class Main extends Application {
         String outputPath = "D:/Uni/rojek/output.geojson";
         new NMEA2GeoJSON(inputPath, outputPath, SimpleGeoJSON.TYPE_POINT).run();
 
-        String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=.sWAG2014";
+        String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=";
         String name = "daten";
         MySQLAccess.connectDB(url);
         MySQLAccess.dropTable(url,name);

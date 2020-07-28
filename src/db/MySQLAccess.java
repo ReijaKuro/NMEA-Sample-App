@@ -99,7 +99,7 @@ public class MySQLAccess {
 
 
     public static void main(String... args) {
-        String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=.sWAG2014";
+        String url = "jdbc:mysql://localhost/java_rojek?serverTimezone=UTC&user=root&password=";
         String name = "daten";
         MySQLAccess.connectDB(url);
         MySQLAccess.dropTable(url,name);

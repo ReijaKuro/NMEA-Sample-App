@@ -1,14 +1,13 @@
 package sample;
 
 import java.sql.Connection;
-import java.sql.Driver;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnector {
 
     public static Connection getConnection() throws SQLException {
-        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_rojek?serverTimezone=UTC&user=root&password=.sWAG2014");
+        Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/java_rojek?serverTimezone=UTC&user=root&password=");
         return connection;
     }
 }
