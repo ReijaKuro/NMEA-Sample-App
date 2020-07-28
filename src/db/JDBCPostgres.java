@@ -20,7 +20,7 @@ public class JDBCPostgres {
 
         // auto close connection
         try (Connection conn = DriverManager.getConnection(
-                "jdbc:postgresql://https://pgadmin.geodaetische-messtechnik.de/", "s71743@beuth-hochschule.de", "geojava2020")) {
+                "jdbc:postgresql://https://pgadmin.geodaetische-messtechnik.de/", "s71743@beuth-hochschule.de", "")) {
 
             if (conn != null) {
                 System.out.println("Connected to the database!");
